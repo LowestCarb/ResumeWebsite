@@ -1,0 +1,14 @@
+.TitleHeader{
+    color: green;
+}
+.SectionHeader{
+    color: green;
+}
+h4{
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    font-size: 15px;
+    font-weight: bolder;
+}
