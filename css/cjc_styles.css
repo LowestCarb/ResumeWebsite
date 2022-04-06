@@ -1,44 +1,71 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #355E3B;
+  color: #ddd;
+  background-color: #9381a4;
 }
 a {
   text-decoration: none;
-  color: #fff;
-}
-nav #header-nav{
-  float: left;
+  color: #ddd;
 }
 #header-nav {
-  background-color: darkcyan;
+  background-color:#355E3B;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+@media (min-width:992px){
+  #header-nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 100vh;
+  }
+  #collapsable-nav {
+    width: 100%;
+  }
 }
 #header-nav button {
   border-width: 2px;
   border-color: #000;
 }
+.navbar-header {
+  display: flex;
+  margin: auto auto 0;
+}
 .navbar-brand h1 {
   font-size: 2.0em;
-  /* text-transform: uppercase; */
+  color: #fff;
   font-weight: bold;
   text-shadow: 2px 2px 2px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-  padding: 5px;
+  line-height: .80;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
   color: #fff;
 }
 #collapsable-nav {
+  align-items: flex-start;
+  margin-bottom: auto;
+  flex-grow: 0;
+}
+#collapsable-nav .navbar-nav {
   font-size: 20px;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
 }
-.nav-item {
+#collapsable-nav .nav-item {
   padding: 5px;
-  text-shadow: 2px 2px 2px #222;
+  display: block;
+  /* text-shadow: 2px 2px 2px #222; */
 }
-.nav-item a:hover, .nav-item a:focus {
+#collapsable-nav .nav-link {
+  color: #ddd;
+  display: block;
+}
+#header-nav .nav-item a:hover, .nav-item a:focus {
   text-decoration: none;
   color: #000;
   background-color: #eee;
