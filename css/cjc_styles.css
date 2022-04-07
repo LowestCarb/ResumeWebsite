@@ -91,11 +91,15 @@ h4 {
   padding-top:80px;
   padding-bottom:80px;
 }
-#skills i {
+a.selfLinks {
+  color: #ddd;
+}
+#skills i, #links i {
   font-size: 3em;
 }
 #skills p {
   text-align: center;
+  font-weight: 700;
 }
 
 /* End Main Content*/
