@@ -71,7 +71,6 @@ h4 {
 #collapsable-nav .nav-item {
   padding: 5px;
   display: block;
-  /* text-shadow: 2px 2px 2px #222; */
 }
 #collapsable-nav .nav-link {
   color: #ddd;
@@ -92,7 +91,12 @@ h4 {
   padding-top:80px;
   padding-bottom:80px;
 }
-
+#skills i {
+  font-size: 3em;
+}
+#skills p {
+  text-align: center;
+}
 
 /* End Main Content*/
 @media (max-width:280px){
