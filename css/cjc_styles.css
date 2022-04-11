@@ -1,7 +1,7 @@
 body {
   font-size: 18px;
-  color: #ccc;
-  background-color: #9381a4;
+  /* color: #ccc; */
+  background-color: #e8f1f2;
   padding: 80px 12px 0;
 }
 a {
@@ -16,22 +16,23 @@ h2 {
   font-size: 1.8em;
   padding-bottom: 15px;
   font-weight: 800;
-  color:#355E3B;
+  color:#008358;
 }
 h3 {
   font-weight: bold;
   font-size: 1.3em;
-  color: #555;
+  color: #0081a7;
 }
 h4 {
   font-size: 1.1em;
   font-style: italic;
   text-decoration: underline;
+  color: #6d4c3d;
 }
 /* Header */
 #header-nav {
   display: flex;
-  background-color:#355E3B;
+  background-color:#008358;
   position: fixed;
   top: 0;
   left: 0;
@@ -49,14 +50,14 @@ h4 {
   margin: 0;
 }
 .navbar-brand h1 {
-  color: #fff;
+  color: #e8f1f2;
   font-weight: bold;
   text-shadow: 2px 2px 2px #222;
   line-height: .80;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-  color: #fff;
+  color: #e8f1f2;
 }
 #collapsable-nav {
   align-items: flex-start;
@@ -74,20 +75,20 @@ h4 {
   display: block;
 }
 #collapsable-nav .nav-link {
-  color: #ddd;
+  color: #e8f1f2;
   display: block;
 }
 #header-nav .nav-item a:hover, .nav-item a:focus {
   text-decoration: none;
   color: #000;
-  background-color: #ddd;
+  background-color: #e8f1f2;
   text-shadow: none;
 }
 /* End Header */
 /* Main Content */
 .resume_section {
   padding: 10px 0;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #6d4c3d;
   min-height:50vh;
   padding-top:80px;
   padding-bottom:80px;
@@ -95,10 +96,10 @@ h4 {
 .workTime {
   float: right;
   font-style: normal;
-  color: #555;
+  color: #6d4c3d;
 }
 a.selfLinks {
-  color: #ddd;
+  color: #e8f1f2;
 }
 #skills i, #links i {
   font-size: 3em;
