@@ -101,6 +101,9 @@ a.selfLinks {
   text-align: center;
   font-weight: 700;
 }
+#scholarships {
+  padding-bottom: 10px;
+}
 
 /* End Main Content*/
 @media (max-width:280px){
