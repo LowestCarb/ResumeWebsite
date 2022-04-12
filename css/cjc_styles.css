@@ -23,7 +23,8 @@ h3 {
   font-size: 1.3em;
   color: #0081a7;
 }
-h4 {
+h4, .workTitle {
+  font-weight: 500;
   font-size: 1.1em;
   font-style: italic;
   text-decoration: underline;
@@ -93,11 +94,17 @@ h4 {
   padding-top:80px;
   padding-bottom:80px;
 }
+#experience p {
+  margin-bottom: 0;
+}
 .workTime {
-  float: right;
+  padding-left: 20px;
   font-style: normal;
   color: #6d4c3d;
   font-size: 16px;
+}
+.experienceSection {
+  font-weight: 500;
 }
 a.selfLinks {
   color: #e8f1f2;
