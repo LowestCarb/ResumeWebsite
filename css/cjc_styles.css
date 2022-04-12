@@ -1,12 +1,11 @@
 body {
-  font-size: 18px;
-  /* color: #ccc; */
-  background-color: #e8f1f2;
+  font-size: 19px;
+  background-color: #222629;
+  color: #d1d7e0;
   padding: 80px 12px 0;
 }
 a {
   text-decoration: none;
-  /* color: #ddd; */
   border-radius: 5px;
 }
 h1 {
@@ -16,28 +15,29 @@ h2 {
   font-size: 1.8em;
   padding-bottom: 15px;
   font-weight: 800;
-  color:#008358;
+  color:#86c232;
 }
 h3 {
   font-weight: bold;
   font-size: 1.3em;
-  color: #0081a7;
+  color: #d1d7e0;
 }
 h4, .workTitle {
   font-weight: 500;
   font-size: 1.1em;
   font-style: italic;
   text-decoration: underline;
-  color: #6d4c3d;
+  color: #61892f;
 }
 /* Header */
 #header-nav {
   display: flex;
-  background-color:#008358;
+  background-color:#86c232;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  font-weight: 700;
 }
 #header-nav button {
   border-width: 2px;
@@ -51,14 +51,14 @@ h4, .workTitle {
   margin: 0;
 }
 .navbar-brand h1 {
-  color: #e8f1f2;
+  color: #222629;
   font-weight: bold;
-  text-shadow: 2px 2px 2px #222;
+  text-shadow: 2px 2px 2px #474b4f;
   line-height: .80;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-  color: #e8f1f2;
+  color: #222629;
 }
 #collapsable-nav {
   align-items: flex-start;
@@ -76,20 +76,20 @@ h4, .workTitle {
   display: block;
 }
 #collapsable-nav .nav-link {
-  color: #e8f1f2;
+  color: #222629;
   display: block;
 }
 #header-nav .nav-item a:hover, .nav-item a:focus {
   text-decoration: none;
-  color: #000;
-  background-color: #e8f1f2;
+  color: #61892f;
+  background-color: #222629;
   text-shadow: none;
 }
 /* End Header */
 /* Main Content */
 .resume_section {
   padding: 10px 0;
-  border-bottom: 1px solid #6d4c3d;
+  border-bottom: 1px solid #86c232;
   min-height:50vh;
   padding-top:80px;
   padding-bottom:80px;
@@ -100,14 +100,11 @@ h4, .workTitle {
 .workTime {
   padding-left: 20px;
   font-style: normal;
-  color: #6d4c3d;
+  color: #61892f;
   font-size: 16px;
 }
 .experienceSection {
   font-weight: 500;
-}
-a.selfLinks {
-  color: #e8f1f2;
 }
 #skills i, #links i {
   font-size: 3em;
