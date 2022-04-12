@@ -89,10 +89,16 @@ h4, .workTitle {
 /* Main Content */
 .resume_section {
   padding: 10px 0;
-  border-bottom: 1px solid #86c232;
+  border-bottom: 1px solid #61892f;
   min-height:50vh;
   padding-top:80px;
   padding-bottom:80px;
+}
+a.selfLinks {
+  color: #d1d7e0;
+}
+#links a:hover, a.selfLinks a:focus {
+  color: #86c232;
 }
 #experience p {
   margin-bottom: 0;
